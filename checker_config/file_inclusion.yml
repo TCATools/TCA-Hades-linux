@@ -1,0 +1,42 @@
+php:
+  include:
+    func_params:
+    - 1
+    msg: 导入文件如果没有对用户输入做过滤会导致目录包含漏洞
+  include_once:
+    func_params:
+    - 1
+    msg: 导入文件如果没有对用户输入做过滤会导致目录包含漏洞
+  parsekit_compile_file:
+    func_params:
+    - 1
+    msg: 导入文件如果没有对用户输入做过滤会导致目录包含漏洞
+  php_check_syntax:
+    func_params:
+    - 1
+    msg: 导入文件如果没有对用户输入做过滤会导致目录包含漏洞
+  require:
+    func_params:
+    - 1
+    msg: 导入文件如果没有对用户输入做过滤会导致目录包含漏洞
+  require_once:
+    func_params:
+    - 1
+    msg: 导入文件如果没有对用户输入做过滤会导致目录包含漏洞
+  runkit_import:
+    func_params:
+    - 1
+    msg: 导入文件如果没有对用户输入做过滤会导致目录包含漏洞
+  set_include_path:
+    func_params:
+    - 1
+    msg: 导入文件如果没有对用户输入做过滤会导致目录包含漏洞
+  virtual:
+    func_params:
+    - 1
+    msg: 导入文件如果没有对用户输入做过滤会导致目录包含漏洞
+python:
+  __import__:
+    func_params:
+    - 1
+    msg: 导入文件如果没有对用户输入做过滤会导致目录包含漏洞

@@ -1,0 +1,5 @@
+php:
+  header:
+    func_params:
+    - 1
+    msg: 函数参数未过滤引发的http响应头截断漏洞

@@ -1,0 +1,6 @@
+python:
+  parseString:
+    func_params:
+    - 1
+    msg: xml parse解析xml引发XML注入
+    totaly: true

@@ -1,0 +1,106 @@
+php:
+  event_buffer_new:
+    func_params:
+    - 3
+    - 2
+    - 4
+    msg: 参数未经过滤引发的反射型注入
+  event_set:
+    func_params:
+    - 4
+    msg: 参数未经过滤引发的反射型注入
+  iterator_apply:
+    func_params:
+    - 2
+    msg: 参数未经过滤引发的反射型注入
+  forward_static_call:
+    func_params:
+    - 1
+    msg: 参数未经过滤引发的反射型注入
+  forward_static_call_arry:
+    func_params:
+    - 1
+    msg: 参数未经过滤引发的反射型注入
+  call_user_func:
+    func_params:
+    - 1
+    msg: 参数未经过滤引发的反射型注入
+  call_user_func_array:
+    func_params:
+    - 1
+    msg: 参数未经过滤引发的反射型注入
+  array_diff_uassoc:
+    func_params:
+    - 3
+    msg: 参数未经过滤引发的反射型注入
+  array_diff_ukey:
+    func_params:
+    - 3
+    msg: 参数未经过滤引发的反射型注入
+  array_filter:
+    func_params:
+    - 2
+    msg: 参数未经过滤引发的反射型注入
+  array_intersect_uassoc:
+    func_params:
+    - 3
+    msg: 参数未经过滤引发的反射型注入
+  array_intersect_ukey:
+    func_params:
+    - 3
+    msg: 参数未经过滤引发的反射型注入
+  array_map:
+    func_params:
+    - 1
+    msg: 参数未经过滤引发的反射型注入
+  array_reduce:
+    func_params:
+    - 2
+    msg: 参数未经过滤引发的反射型注入
+  array_udiff:
+    func_params:
+    - 3
+    msg: 参数未经过滤引发的反射型注入
+  array_udiff_assoc:
+    func_params:
+    - 3
+    msg: 参数未经过滤引发的反射型注入
+  array_udiff_uassoc:
+    func_params:
+    - 3
+    - 4
+    msg: 参数未经过滤引发的反射型注入
+  array_uintersect:
+    func_params:
+    - 3
+    msg: 参数未经过滤引发的反射型注入
+  array_uintersect_assoc:
+    func_params:
+    - 3
+    msg: 参数未经过滤引发的反射型注入
+  array_uintersect_uassoc:
+    func_params:
+    - 3
+    - 4
+    msg: 参数未经过滤引发的反射型注入
+  array_walk:
+    func_params:
+    - 2
+    msg: 参数未经过滤引发的反射型注入
+  array_walk_recursive:
+    func_params:
+    - 2
+    msg: 参数未经过滤引发的反射型注入
+go:
+  MethodByName:
+    func_params:
+    - 1
+    msg: 参数未经过滤引发的反射型注入
+  FieldByName:
+    func_params:
+    - 1
+    msg: 参数未经过滤引发的反射型注入
+  MakeFunc:
+    func_params:
+    - 1
+    msg: 参数未经过滤引发的反射型注入

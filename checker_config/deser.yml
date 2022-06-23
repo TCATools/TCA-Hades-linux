@@ -1,0 +1,50 @@
+python:
+  json.load:
+    func_params:
+    - 1
+    msg: json load 导致的反序列化漏洞
+    totaly: true
+  json.loads:
+    func_params:
+    - 1
+    msg: json loads 导致的反序列化漏洞
+    totaly: true
+  marshal.load:
+    func_params:
+    - 1
+    msg: marshal.load 导致的反序列化漏洞
+    totaly: true
+  marshal.loads:
+    func_params:
+    - 1
+    msg: marshal.loads 导致的反序列化漏洞
+    totaly: true
+  pickle.load:
+    func_params:
+    - 1
+    msg: pickle.load 导致的反序列化漏洞
+    totaly: true
+  pickle.loads:
+    func_params:
+    - 1
+    msg: pickle.loads 导致的反序列化漏洞
+    totaly: true
+  yaml.load:
+    func_params:
+    - 1
+    msg: yaml load 反序列化漏洞
+    totaly: true
+  yaml.loads:
+    func_params:
+    - 1
+    msg: yaml loads 反序列化漏洞
+    totaly: true
+php:
+  unserialize:
+    func_params:
+    - 1
+    msg: 传入参数没有过滤造成反序列化漏洞
+  yaml_parse:
+    func_params:
+    - 1
+    msg: 传入参数没有过滤造成反序列化漏洞

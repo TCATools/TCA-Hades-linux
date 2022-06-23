@@ -1,0 +1,10 @@
+python:
+  HttpResponseRedirect:
+    func_params:
+    - 1
+    msg: HttpResponseRedirect的url未经处理会引发任意URL跳转漏洞
+    totaly: true
+  redirect:
+    func_params:
+    - 2
+    msg: redirect未经处理的url参数涉及用户输入引发任意URL跳转

@@ -1,0 +1,22 @@
+php:
+  ldap_add:
+    func_params:
+    - 2
+    - 3
+    msg: 函数参数未过滤引发的ldap注入漏洞
+  ldap_delete:
+    func_params:
+    - 2
+    msg: 函数参数未过滤引发的ldap注入漏洞
+  ldap_list:
+    func_params:
+    - 3
+    msg: 函数参数未过滤引发的ldap注入漏洞
+  ldap_read:
+    func_params:
+    - 3
+    msg: 函数参数未过滤引发的ldap注入漏洞
+  ldap_search:
+    func_params:
+    - 3
+    msg: 函数参数未过滤引发的ldap注入漏洞

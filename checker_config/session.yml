@@ -1,0 +1,13 @@
+php:
+  setcookie:
+    func_params:
+    - 2
+    msg: 函数参数未过滤引发的会话固定漏洞（会话固定也可以看成是会话劫持的一种类型）
+  setrawcookie:
+    func_params:
+    - 2
+    msg: 函数参数未过滤引发的会话固定漏洞（会话固定也可以看成是会话劫持的一种类型）
+  session_id:
+    func_params:
+    - 1
+    msg: 函数参数未过滤引发的会话固定漏洞（会话固定也可以看成是会话劫持的一种类型）

@@ -1,0 +1,10 @@
+python:
+  open:
+    func_params:
+    - 1
+    msg: "文件路径不经过过滤会造成路径穿越漏洞"
+go:
+  OpenFile:
+    func_params:
+    - 1
+    msg: "文件路径不经过过滤会造成路径穿越漏洞"

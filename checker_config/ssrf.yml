@@ -1,0 +1,70 @@
+python:
+  requests.get:
+    func_params:
+    - 1
+    msg: url参数不经过处理直接访问会造成服务端请求伪造漏洞
+    totaly: True
+  requests.post:
+    func_params:
+    - 1
+    msg: url参数不经过处理直接访问会造成服务端请求伪造漏洞
+    totaly: True
+  requests.put:
+    func_params:
+    - 1
+    msg: url参数不经过处理直接访问会造成服务端请求伪造漏洞
+    totaly: True
+  requests.head:
+    func_params:
+    - 1
+    msg: url参数不经过处理直接访问会造成服务端请求伪造漏洞
+    totaly: True
+  requests.options:
+    func_params:
+    - 1
+    msg: url参数不经过处理直接访问会造成服务端请求伪造漏洞
+    totaly: True
+  requests.delete:
+    func_params:
+    - 1
+    msg: url参数不经过处理直接访问会造成服务端请求伪造漏洞
+    totaly: True
+php:
+  file_get_contents:
+    func_params:
+    - 1
+    msg: url参数不经过处理直接访问会造成服务端请求伪造漏洞
+    totaly: True
+  fsockopen:
+    func_params:
+    - 1
+    msg: 参数不经过处理直接访问会造成服务端请求伪造漏洞
+  get_headers:
+    func_params:
+    - 1
+    msg: 参数不经过处理直接访问会造成服务端请求伪造漏洞
+  curl:
+    func_params:
+    - 1
+    msg: 参数不经过处理直接访问会造成服务端请求伪造漏洞
+go:
+  http.Get:
+    func_params:
+    - 1
+    msg: 参数不经过处理直接访问会造成服务端请求伪造漏洞
+  http.Post:
+    func_params:
+    - 1
+    msg: 参数不经过处理直接访问会造成服务端请求伪造漏洞
+  http.Head:
+    func_params:
+    - 1
+    msg: 参数不经过处理直接访问会造成服务端请求伪造漏洞
+  http.PostForm:
+    func_params:
+    - 1
+    msg: 参数不经过处理直接访问会造成服务端请求伪造漏洞
+  http.Do:
+    func_params:
+    - 1
+    msg: 参数不经过处理直接访问会造成服务端请求伪造漏洞

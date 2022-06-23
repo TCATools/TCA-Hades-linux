@@ -1,0 +1,43 @@
+python:
+  eval:
+    func_params:
+    - -1
+    msg: eval导致代码注入
+php:
+  assert:
+    func_params:
+    - 1
+    msg: 参数涉及用户输入内容且未经过滤处理引发远程代码执行漏洞
+  create_function:
+    func_params:
+    - 1
+    - 2
+    msg: 参数涉及用户输入内容且未经过滤处理引发远程代码执行漏洞
+  eval:
+    func_params:
+    - 1
+    msg: 参数涉及用户输入内容且未经过滤处理引发远程代码执行漏洞
+  mb_ereg_replace:
+    func_params:
+    - 1
+    - 2
+    msg: 参数涉及用户输入内容且未经过滤处理引发远程代码执行漏洞
+  mb_eregi_replace:
+    func_params:
+    - 1
+    - 2
+    msg: 参数涉及用户输入内容且未经过滤处理引发远程代码执行漏洞
+  preg_filter:
+    func_params:
+    - 1
+    - 2
+    msg: 参数涉及用户输入内容且未经过滤处理引发远程代码执行漏洞
+  preg_replace:
+    func_params:
+    - 1
+    - 2
+    msg: 参数涉及用户输入内容且未经过滤处理引发远程代码执行漏洞
+  preg_replace_callback:
+    func_params:
+    - 1
+    msg: 参数涉及用户输入内容且未经过滤处理引发远程代码执行漏洞

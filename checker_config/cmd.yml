@@ -1,0 +1,116 @@
+python:
+  SubProcController:
+    func_params:
+    - 1
+    msg: 执行命令时没有对用户输入过滤造成命令注入漏洞
+  Popen:
+    func_params:
+    - 1
+    msg: Popen引发命令注入
+  check_call:
+    func_params:
+    - 1
+    msg: check_call引发命令注入
+  check_output:
+    func_params:
+    - 1
+    msg: check_output引发命令注入
+  execv:
+    func_params:
+    - -1
+    msg: execv引发命令注入
+  getoutput:
+    func_params:
+    - 1
+    msg: commands.getoutput引发命令注入
+  popen:
+    func_params:
+    - 1
+    msg: popen引发命令注入
+  popen2:
+    func_params:
+    - 1
+    msg: popen2引发命令注入
+  popen3:
+    func_params:
+    - 1
+    msg: popen3引发命令注入
+  system:
+    func_params:
+    - 1
+    msg: system引发命令注入
+php:
+  backticks:
+    func_params:
+    - 1
+    msg: 执行命令时没有对用户输入过滤造成命令注入漏洞
+  exec:
+    func_params:
+    - 1
+    msg: 执行命令时没有对用户输入过滤造成命令注入漏洞
+  expect_popen:
+    func_params:
+    - 1
+    msg: 执行命令时没有对用户输入过滤造成命令注入漏洞
+  passthru:
+    func_params:
+    - 1
+    msg: 执行命令时没有对用户输入过滤造成命令注入漏洞
+  pctnl_exec:
+    func_params:
+    - 1
+    msg: 执行命令时没有对用户输入过滤造成命令注入漏洞
+  popen:
+    func_params:
+    - 1
+    msg: 执行命令时没有对用户输入过滤造成命令注入漏洞
+  proc_open:
+    func_params:
+    - 1
+    msg: 执行命令时没有对用户输入过滤造成命令注入漏洞
+  shell_exec:
+    func_params:
+    - 1
+    msg: 执行命令时没有对用户输入过滤造成命令注入漏洞
+  system:
+    func_params:
+    - 1
+    msg: 执行命令时没有对用户输入过滤造成命令注入漏洞
+  mail:
+    func_params:
+    - 5
+    msg: 执行命令时没有对用户输入过滤造成命令注入漏洞
+  mb_send_mail:
+    func_params:
+    - 5
+    msg: 执行命令时没有对用户输入过滤造成命令注入漏洞
+  w32api_invoke_function:
+    func_params:
+    - 1
+    msg: 执行命令时没有对用户输入过滤造成命令注入漏洞
+  w21api_register_function:
+    func_params:
+    - 2
+    msg: 执行命令时没有对用户输入过滤造成命令注入漏洞
+go:
+  Command:
+    func_params:
+    - -1
+    msg: 执行命令时没有对用户输入过滤造成命令注入漏洞
+  Cmd:
+    func_params:
+    - -1
+    msg: 执行命令时没有对用户输入过滤造成命令注入漏洞
+  CommandContext:
+    func_params:
+    - -1
+    msg: 执行命令时没有对用户输入过滤造成命令注入漏洞
+  ForkExec:
+    func_params:
+    - -1
+    msg: 执行命令时没有对用户输入过滤造成命令注入漏洞
+  Run:
+    func_params:
+    - -1
+    msg: 执行命令时没有对用户输入过滤造成命令注入漏洞
+  

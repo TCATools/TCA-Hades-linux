@@ -1,0 +1,87 @@
+python:
+  JsonResponse:
+    func_params:
+    - 1
+    msg: xss攻击
+  HttpResponse:
+    func_params:
+    - 1
+    msg: xss攻击
+  Response:
+    func_params:
+    - 1
+    msg: xss攻击
+  render:
+    func_params:
+    - 1
+    msg: 参数不经过过滤导致xss攻击
+  Markup:
+    func_params:
+    - 1
+    msg: 参数不经过过滤导致xss攻击
+  make_response:
+    func_params:
+    - 1
+    msg: 参数不经过过滤导致xss攻击
+php:
+  echo:
+    func_params:
+    - -1
+    msg: echo 引发的xss攻击
+  print:
+    func_params:
+    - -1
+    msg: print 引发的xss攻击漏洞
+  print_r:
+    func_params:
+    - -1
+    msg: 函数参数未过滤引发的xss攻击漏洞
+  exit:
+    func_params:
+    - -1
+    msg: 函数参数未过滤引发的xss攻击漏洞
+  die:
+    func_params:
+    - -1
+    msg: 函数参数未过滤引发的xss攻击漏洞
+  printf:
+    func_params:
+    - -1
+    msg: 函数参数未过滤引发的xss攻击漏洞
+  vprintf:
+    func_params:
+    - -1
+    msg: 函数参数未过滤引发的xss攻击漏洞
+  trigger_error:
+    func_params:
+    - 1
+    msg: 函数参数未过滤引发的xss攻击漏洞
+  user_error:
+    func_params:
+    - 1
+    msg: 函数参数未过滤引发的xss攻击漏洞
+  odbc_result_all:
+    func_params:
+    - 2
+    msg: 函数参数未过滤引发的xss攻击漏洞
+  ovrmos_result_all:
+    func_params:
+    - 2
+    msg: 函数参数未过滤引发的xss攻击漏洞
+  ifx_htmltbl_result:
+    func_params:
+    - 2
+    msg: 函数参数未过滤引发的xss攻击漏洞
+go:
+  Write:
+    func_params:
+    - 1
+    msg: 函数参数未过滤引发的xss攻击漏洞
+  WriteString:
+    func_params:
+    - 2
+    msg: 函数参数未过滤引发的xss攻击漏洞
+  HTML:
+    func_params:
+    - 1
+    msg: 函数参数未过滤引发的xss攻击漏洞

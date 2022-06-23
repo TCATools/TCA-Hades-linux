@@ -1,0 +1,13 @@
+php:
+  xpath_eval:
+    func_params:
+    - 2
+    msg: 用户输入未经过滤引发的xpath注入
+  xpath_eval_expression:
+    func_params:
+    - 2
+    msg: 用户输入未经过滤引发的xpath注入
+  xptr_eval:
+    func_params:
+    - 2
+    msg: 用户输入未经过滤引发的xpath注入

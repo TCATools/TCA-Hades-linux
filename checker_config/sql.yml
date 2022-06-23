@@ -1,0 +1,306 @@
+python:
+  execute:
+    func_params:
+    - -1
+    msg: execute调用可能引发sql注入
+  RawSQL:
+    func_params:
+    - -1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  raw:
+    func_params:
+    - -1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+
+php:
+  dba_open:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  dba_popen:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  dba_insert:
+    func_params:
+    - 1
+    - 2
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  dba_fetch:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  dba_delete:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  dbx_query:
+    func_params:
+    - 2
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  odbc_exec:
+    func_params:
+    - 2
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  odbc_do:
+    func_params:
+    - 2
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  db2_exec:
+    func_params:
+    - 2
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  db2_execute:
+    func_params:
+    - 2
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  fbsql_db_query:
+    func_params:
+    - 2
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  fbsql_query:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  ibase_query:
+    func_params:
+    - 2
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  ibase_execute:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  ifx_query:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  ifx_do:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  ingres_query:
+    func_params:
+    - 2
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  ingres_execute:
+    func_params:
+    - 2
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  ingres_unbuffered_query:
+    func_params:
+    - 2
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  msql_db_query:
+    func_params:
+    - 2
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  msql_query:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  msql:
+    func_params:
+    - 2
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  mssql_query:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  mssql_execute:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  mysql_db_query:
+    func_params:
+    - 2
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  mysql_query:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  mysql_unbuffered_query:
+    func_params:
+    - 2
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  mysqli_stmt_execute:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  mysqli_query:
+    func_params:
+    - 2
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  mysqli_real_query:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  mysqli_master_query:
+    func_params:
+    - 2
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  oci_execute:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  ociexecute:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  ovrimos_exec:
+    func_params:
+    - 2
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  ovrimos_execute:
+    func_params:
+    - 2
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  ora_do:
+    func_params:
+    - 2
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  ora_exec:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  pg_query:
+    func_params:
+    - 2
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  pg_send_query:
+    func_params:
+    - 2
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  pg_send_query_params:
+    func_params:
+    - 2
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  pg_send_prepare:
+    func_params:
+    - 3
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  pg_prepare:
+    func_params:
+    - 2
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  sqlite_open:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  sqlite_popen:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  sqlite_array_query:
+    func_params:
+    - 1
+    - 2
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  arrayQuery:
+    func_params:
+    - 1
+    - 2
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  singleQuery:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  sqlite_query:
+    func_params:
+    - 1
+    - 2
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  sqlite_exec:
+    func_params:
+    - 1
+    - 2
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  sqlite_single_query:
+    func_params:
+    - 2
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  sqlite_unbuffered_query:
+    func_params:
+    - 1
+    - 2
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  sybase_query:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  sybase_unbuffered_query:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+go:
+  QueryRow:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  Query:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  Exec:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  ExecContent:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  QueryContext:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  QueryRowContext:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  Where:
+    func_params:
+    - -1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  WhereOr:
+    func_params:
+    - -1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  Join:
+    func_params:
+    - -1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  GroupExpr:
+    func_params:
+    - -1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  OrderExpr:
+    func_params:
+    - -1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  ColumnExpr:
+    func_params:
+    - -1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  ExecContext:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  ExecOne:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  ExecOneContext:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  QueryOne:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  QueryEx:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
+  QueryRowEx:
+    func_params:
+    - 1
+    msg: 执行sql时没有对用户输入过滤造成sql注入漏洞
